@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificación: No soy un robot</title>
+    <link rel="stylesheet" href="CSS/Verificacion.css">
+    <link rel="shortcut icon" href="IMG/LOGO P.png" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <h1>Verificación: No soy un robot</h1>
+        <p>Por favor selecciona todas las imágenes de gatos:</p>
+
+        <div class="image-grid">
+            <div class="image-item">
+                <img src="IMG/GATO1.jpg" alt="Gato 1" id="cat1" class="image">
+                <input type="checkbox" id="checkbox1" class="image-checkbox">
+            </div>
+            <div class="image-item">
+                <img src="IMG/PERRO1.jpg" alt="Perro 1" id="dog1" class="image">
+                <input type="checkbox" id="checkbox2" class="image-checkbox">
+            </div>
+            <div class="image-item">
+                <img src="IMG/GATO2.jpg" alt="Gato 2" id="cat2" class="image">
+                <input type="checkbox" id="checkbox3" class="image-checkbox">
+            </div>
+            <div class="image-item">
+                <img src="IMG/PERRO2.jpg" alt="Perro 2" id="dog2" class="image">
+                <input type="checkbox" id="checkbox4" class="image-checkbox">
+            </div>
+            <div class="image-item">
+                <img src="IMG/GATO4.jpg" alt="Gato 3" id="cat3" class="image">
+                <input type="checkbox" id="checkbox5" class="image-checkbox">
+            </div>
+            <div class="image-item">
+                <img src="IMG/PERRO3.jpg" alt="Perro 3" id="dog3" class="image">
+                <input type="checkbox" id="checkbox6" class="image-checkbox">
+            </div>
+        </div>
+
+        <button onclick="validateSelection()">Verificar</button>
+
+        <div id="resultMessage"></div>
+        <button id="nextPageBtn" style="display:none;" onclick="redirectToContact()">Ir al formulario de contacto</button>
+    </div>
+
+    <script src="JS/script.js"></script>
+</body>
+</html>

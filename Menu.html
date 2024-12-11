@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.8">
+    <title>Golden Table</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/footer.css">
+    <link rel="stylesheet" href="CSS/Menu.css">
+    <link rel="shortcut icon" href="IMG/LOGO P.png" type="image/x-icon">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <header class="header">
+        <div class="logo">
+            <img src="IMG/Golden Table_transparent-.png" alt="">
+        </div>
+
+        <nav>
+            <ul class="nav-links">
+                <li>
+                    <a href="index.html">Inicio</a>
+                </li>
+                <li>
+                    <a href="Nosotros.html">Nosotros</a>
+                </li>
+                <li>
+                    <a href="Menu.html">Carta</a>
+                </li>
+                <li>
+                    <a href="Promociones.html">Promociones</a>
+                </li>
+                <li>
+                    <a href="Reservas.html">Reservas</a>
+                </li>
+                <li>
+                    <a href="Ubicacion.html">Ubicacion</a>
+                </li>
+            </ul>
+        </nav>
+
+        <a href="Verificación.html" class="btn"><button>Contactanos</button></a>
+
+        <!-- Navbar Mobile-->
+
+        <a onclick="openNav()" class="menu" href="#"><button>Menu</button></a>
+
+        <div class="overlay" id="mobile-menu">
+            <a onclick="closeNav()" href="" class="close">&times;</a>
+            <div class="overlay-content">
+                <a>
+                    <a href="index.html">Inicio</a>
+                </a>
+                <a>
+                    <a href="Nosotros.html">Nosotros</a>
+                </a>
+                <a>
+                    <a href="Menu.html">Carta</a>
+                </a>
+                <a>
+                    <a href="Promociones.html">Promociones</a>
+                </a>
+                <a>
+                    <a href="Reservas.html">Reservas</a>
+                </a>
+                <a>
+                    <a href="Ubicacion.html">Ubicacion</a>
+                </a>
+                <a>
+                    <a href="Verificación.html">Contactanos</a>
+                </a>
+            </div>
+        </div>
+ 
+
+    </header>
+<!--  Seccion Carta  -->
+  <br>
+  <br>
+            <!-- Menu Criollo -->
+            <div class="container raise-2">
+                <h6 class="section-subtitle text-center">Platos Tipicos</h6>
+                <h3 class="section-title mb-6 pb-3 text-center">MENÚ CRIOLLO</h3>
+                <div class="row">
+                    <div class="col-md-6 mb-4">
+                        <a href="javascrip:void(0)" class="custom-list">
+                            <div class="img-holder">
+                                <img src="imgs/aji-de-gallina.jpeg" alt="">
+                            </div>
+                            <div class="info">
+                                <div class="head clearfix">
+                                    <h5 class="title float-left">Ají de Gallina Classique</h5>
+                                    <p class="float-right text-primary">S/. 30</p>
+                                </div>
+                                <div class="body">
+                                    <p>Pollo desmenuzado en crema de ají amarillo, con papas nativas, huevo de codorniz y aceitunas.
+    
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                        <a href="javascrip:void(0)" class="custom-list">
+                            <div class="img-holder">
+                                <img src="imgs/ESPAGUETI.jpg" alt="">
+                            </div>
+                            <div class="info">
+                                <div class="head clearfix">
+                                    <h5 class="title float-left">Tallarines Rojos Criollo</h5>
+                                    <p class="float-right text-primary">S/. 35</p>
+                                </div>
+                                <div class="body">
+                                    <p>Pasta en salsa de tomate con carne de res marinada y especias peruanas. </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                        <a href="javascrip:void(0)" class="custom-list">
+                            <div class="img-holder">
+                                <img src="imgs/lomoSaltado.jpg" alt="">
+                            </div>
+                            <div class="info">
+                                <div class="head clearfix">
+                                    <h5 class="title float-left">Lomo Saltado Supra</h5>
+                                    <p class="float-right text-primary">S/. 40</p>
+                                </div>
+                                <div class="body">
+                                    <p>Lomo fino salteado con cebolla y tomate, servido con papas fritas y arroz.</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                        <a href="javascrip:void(0)" class="custom-list">
+                            <div class="img-holder">
+                                <img src="imgs/rocotoRelleno.jpg" alt="">
+                            </div>
+                            <div class="info">
+                                <div class="head clearfix">
+                                    <h5 class="title float-left">Rocoto Relleno Fino</h5>
+                                    <p class="float-right text-primary">S/. 35</p>
+                                </div>
+                                <div class="body">
+                                    <p>Rocoto relleno de carne y especias, gratinado con queso, acompañado de pastel de papa.</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                        <a href="javascrip:void(0)" class="custom-list">
+                            <div class="img-holder">
+                                <img src="imgs/cebiche.png" alt="">
+                            </div>
+                            <div class="info">
+                                <div class="head clearfix">
+                                    <h5 class="title float-left">Ceviche Mixto de Corvina</h5>
+                                    <p class="float-right text-primary">S/. 30</p>
+                                </div>
+                                <div class="body">
+                                    <p>Corvina fresca y mariscos marinados en limón, con choclo y camote.</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                        <a href="javascrip:void(0)" class="custom-list">
+                            <div class="img-holder">
+                                <img src="imgs/Huancaina.jpg" alt="">
+                            </div>
+                            <div class="info">
+                                <div class="head clearfix">
+                                    <h5 class="title float-left">Papa a la Huancaína Limeña</h5>
+                                    <p class="float-right text-primary">S/. 15</p>
+                                </div>
+                                <div class="body">
+                                    <p>Papas en salsa de ají amarillo y queso fresco, decoradas con huevo de codorniz y aceitunas.</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>                  
+            </div>
+
+            <!-- Menu Italiano -->
+            <div class="container raise-2">
+                <h6 class="section-subtitle text-center">Platos Italianos</h6>
+                <h3 class="section-title mb-6 pb-3 text-center">MENÚ ITALIANO</h3>
+                <div class="row">
+                    <div class="col-md-6 mb-4">
+                        <a href="javascrip:void(0)" class="custom-list">
+                            <div class="img-holder">
+                                <img src="IMG/MenuIta1.jpg" alt="">
+                            </div>
+                            <div class="info">
+                                <div class="head clearfix">
+                                    <h5 class="title float-left">Ají de Gallina Classique</h5>
+                                    <p class="float-right text-primary">S/. 30</p>
+                                </div>
+                                <div class="body">
+                                    <p>Pollo desmenuzado en crema de ají amarillo, con papas nativas, huevo de codorniz y aceitunas.
+    
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                        <a href="javascrip:void(0)" class="custom-list">
+                            <div class="img-holder">
+                                <img src="IMG/MenuIta2.jpg" alt="">
+                            </div>
+                            <div class="info">
+                                <div class="head clearfix">
+                                    <h5 class="title float-left">Tallarines Rojos Criollo</h5>
+                                    <p class="float-right text-primary">S/. 35</p>
+                                </div>
+                                <div class="body">
+                                    <p>Pasta en salsa de tomate con carne de res marinada y especias peruanas. </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                        <a href="javascrip:void(0)" class="custom-list">
+                            <div class="img-holder">
+                                <img src="IMG/MenuIta3.jpg" alt="">
+                            </div>
+                            <div class="info">
+                                <div class="head clearfix">
+                                    <h5 class="title float-left">Lomo Saltado Supra</h5>
+                                    <p class="float-right text-primary">S/. 40</p>
+                                </div>
+                                <div class="body">
+                                    <p>Lomo fino salteado con cebolla y tomate, servido con papas fritas y arroz.</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                        <a href="javascrip:void(0)" class="custom-list">
+                            <div class="img-holder">
+                                <img src="IMG/MenuIta4.jpg" alt="">
+                            </div>
+                            <div class="info">
+                                <div class="head clearfix">
+                                    <h5 class="title float-left">Rocoto Relleno Fino</h5>
+                                    <p class="float-right text-primary">S/. 35</p>
+                                </div>
+                                <div class="body">
+                                    <p>Rocoto relleno de carne y especias, gratinado con queso, acompañado de pastel de papa.</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                        <a href="javascrip:void(0)" class="custom-list">
+                            <div class="img-holder">
+                                <img src="IMG/MenuIta5.jpg" alt="">
+                            </div>
+                            <div class="info">
+                                <div class="head clearfix">
+                                    <h5 class="title float-left">Ceviche Mixto de Corvina</h5>
+                                    <p class="float-right text-primary">S/. 30</p>
+                                </div>
+                                <div class="body">
+                                    <p>Corvina fresca y mariscos marinados en limón, con choclo y camote.</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                        <a href="javascrip:void(0)" class="custom-list">
+                            <div class="img-holder">
+                                <img src="IMG/MenuIta6.jpg" alt="">
+                            </div>
+                            <div class="info">
+                                <div class="head clearfix">
+                                    <h5 class="title float-left">Papa a la Huancaína Limeña</h5>
+                                    <p class="float-right text-primary">S/. 15</p>
+                                </div>
+                                <div class="body">
+                                    <p>Papas en salsa de ají amarillo y queso fresco, decoradas con huevo de codorniz y aceitunas.</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>                  
+            </div>
+    
+        <!-- Bebidas -->
+            <div class="container raise-2">
+                <h6 class="section-subtitle text-center">Nacionales</h6>
+                <h3 class="section-title mb-6 pb-3 text-center">Bebidas</h3>
+                <div class="row">
+                    <div class="col-md-6 mb-4">
+                        <a href="javascrip:void(0)" class="custom-list">
+                            <div class="img-holder">
+                                <img src="imgs/Vino.jpg" alt="">
+                            </div>
+                            <div class="info">
+                                <div class="head clearfix">
+                                    <h5 class="title float-left">Vino</h5>
+                                    <p class="float-right text-primary">S/. 30</p>
+                                </div>
+                                <div class="body">
+                                    <p>Producido en Ica y Moquegua, de sabor suave y afrutado.
+    
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                        <a href="javascrip:void(0)" class="custom-list">
+                            <div class="img-holder">
+                                <img src="imgs/pisco.jpg" alt="">
+                            </div>
+                            <div class="info">
+                                <div class="head clearfix">
+                                    <h5 class="title float-left">Pisco Sour</h5>
+                                    <p class="float-right text-primary">S/. 35</p>
+                                </div>
+                                <div class="body">
+                                    <p>Cóctel con pisco, limón, clara de huevo y angostura. </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                        <a href="javascrip:void(0)" class="custom-list">
+                            <div class="img-holder">
+                                <img src="imgs/Cerveza artesanal.png" alt="">
+                            </div>
+                            <div class="info">
+                                <div class="head clearfix">
+                                    <h5 class="title float-left">Cerveza Artesanal</h5>
+                                    <p class="float-right text-primary">S/. 40</p>
+                                </div>
+                                <div class="body">
+                                    <p>Bebida con sabores únicos y métodos locales.</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                        <a href="javascrip:void(0)" class="custom-list">
+                            <div class="img-holder">
+                                <img src="imgs/Chicha.jpg" alt="">
+                            </div>
+                            <div class="info">
+                                <div class="head clearfix">
+                                    <h5 class="title float-left">Chicha Morada</h5>
+                                    <p class="float-right text-primary">S/. 12</p>
+                                </div>
+                                <div class="body">
+                                    <p>Bebida de maíz morado, piña y especias, refrescante y antioxidante.</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                        <a href="javascrip:void(0)" class="custom-list">
+                            <div class="img-holder">
+                                <img src="imgs/INKACOLA.png" alt="">
+                            </div>
+                            <div class="info">
+                                <div class="head clearfix">
+                                    <h5 class="title float-left">Inca Kola</h5>
+                                    <p class="float-right text-primary">S/. 10</p>
+                                </div>
+                                <div class="body">
+                                    <p>Refresco amarillo dulce, icónico en Perú.</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                        <a href="javascrip:void(0)" class="custom-list">
+                            <div class="img-holder">
+                                <img src="imgs/SanMateo.png" alt="">
+                            </div>
+                            <div class="info">
+                                <div class="head clearfix">
+                                    <h5 class="title float-left">Agua San Mateo</h5>
+                                    <p class="float-right text-primary">S/. 5</p>
+                                </div>
+                                <div class="body">
+                                    <p>Agua mineral andina, famosa por su pureza.</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>                  
+            </div>  
+            <br>
+            <br>
+
+    <!--  Footer  -->
+
+    <footer class="footer">
+        <div class="footer-content container">
+            <div class="link">
+                <h3>Nosotros</h3>
+                <ul>
+                    <li><a href="#">Quiénes somos</a></li>
+                    <li><a href="#">Nuestra historia</a></li>
+                    <li><a href="#">Nuestro menú</a></li>
+                    <li><a href="#">Premios y reconocimientos</a></li>
+                </ul>
+            </div>
+            <div class="link">
+                <h3>Ubicaciones</h3>
+                <ul>
+                    <li><a href="#">Golden Table Lima</a></li>
+                    <li><a href="#">Golden Table Milano</a></li>
+                    <li><a href="#">Próximas aperturas</a></li>
+                    <li><a href="#">Contáctanos</a></li>
+                </ul>
+            </div>
+            <div class="link">
+                <h3>Redes Sociales</h3>
+                <ul>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">YouTube</a></li>
+                </ul>
+            </div>
+            <div class="link">
+                <h3>Servicio al Cliente</h3>
+                <ul>
+                    <li><a href="#">Reservas</a></li>
+                    <li><a href="#">Preguntas frecuentes</a></li>
+                    <li><a href="#">Política de privacidad</a></li>
+                    <li><a href="#">Términos y condiciones</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    
+
+    <script type="text/javascript" src="JS/nav.js"></script>
+</body>
+
+</html>
