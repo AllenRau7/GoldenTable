@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.8">
+    <title>Golden Table</title>
+    <link rel="stylesheet" href="../css/navbar.css">
+    <link rel="stylesheet" href="../css/Nosotros.css">
+    <link rel="stylesheet" href="../css/Ubicacion.css">
+    <link rel="shortcut icon" href="../img/LOGO P.png" type="image/x-icon">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <header class="header">
+        <div class="logo">
+            <img src="../img/Golden Table_transparent-.png" alt="">
+        </div>
+
+        <nav>
+            <ul class="nav-links">
+                <li>
+                    <a href="../index.html">Inicio</a>
+                </li>
+                <li>
+                    <a href="Nosotros.html">Nosotros</a>
+                </li>
+                <li>
+                    <a href="Menu.html">Carta</a>
+                </li>
+                <li>
+                    <a href="Promociones.html">Promociones</a>
+                </li>
+                <li>
+                    <a href="Reservas.html">Reservas</a>
+                </li>
+                <li>
+                    <a href="Ubicacion.html">Ubicacion</a>
+                </li>
+            </ul>
+        </nav>
+
+        <a href="Verificación.html" class="btn"><button>Contactanos</button></a>
+
+        <!-- Navbar Mobile-->
+
+        <a onclick="openNav()" class="menu" href="#"><button>Menu</button></a>
+
+        <div class="overlay" id="mobile-menu">
+            <a onclick="closeNav()" href="" class="close">&times;</a>
+            <div class="overlay-content">
+                <a>
+                    <a href="../index.html">Inicio</a>
+                </a>
+                <a>
+                    <a href="Nosotros.html">Nosotros</a>
+                </a>
+                <a>
+                    <a href="Menu.html">Carta</a>
+                </a>
+                <a>
+                    <a href="Promociones.html">Promociones</a>
+                </a>
+                <a>
+                    <a href="Reservas.html">Reservas</a>
+                </a>
+                <a>
+                    <a href="Ubicacion.html">Ubicacion</a>
+                </a>
+                <a>
+                    <a href="Verificación.html">Contactanos</a>
+                </a>
+            </div>
+        </div>
+    </header>
+<!--  Seccion Ubicación  -->
+<div class="location-section">
+    <div class="location-content">
+        <div class="location-text">
+            <h2 class="location-title">Sucursal de Lima</h2>
+            <p class="location-description">Golden Table es un restaurante gourmet ubicado en el corazón de San Isidro. Disfruta de una experiencia única de platos de alta cocina con ingredientes frescos y de calidad. Estamos ubicados en Av. Pardo y Aliaga 640, San Isidro, donde te ofrecemos una experiencia culinaria incomparable.</p>
+            <p class="location-instructions">Para llegar, simplemente toma la Av. Pardo y Aliaga desde el centro de Lima. El restaurante está cerca de la intersección con la Av. Comandante Espinar. Si vienes en transporte público, la estación más cercana es la de la Av. Pardo.</p>
+        </div>
+        <div class="mapBox">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3901.083134913051!2d-77.03915610563482!3d-12.106461078357569!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c840cf39d01f%3A0xeaac06eec0ae8936!2sAv.%20Pardo%20y%20Aliaga%20640%2C%20San%20Isidro%2015073!5e0!3m2!1ses-419!2spe!4v1732068404339!5m2!1ses-419!2spe" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+        <div class="imageBox">
+            <img src="../img/Ubi.png" alt="Imagen del restaurante" />
+        </div>
+    </div>
+</div>
+<!-- Video de fondo -->
+<video autoplay muted loop id="bg-video">
+    <source src="../video/ubi.mp4" type="video/mp4">
+</video>
+
+    <!--  Footer  -->
+
+    <footer class="footer">
+        <div class="footer-content container">
+            <div class="link">
+                <h3>Nosotros</h3>
+                <ul>
+                    <li><a href="#">Quiénes somos</a></li>
+                    <li><a href="#">Nuestra historia</a></li>
+                    <li><a href="#">Nuestro menú</a></li>
+                    <li><a href="#">Premios y reconocimientos</a></li>
+                </ul>
+            </div>
+            <div class="link">
+                <h3>Ubicaciones</h3>
+                <ul>
+                    <li><a href="#">Golden Table Lima</a></li>
+                    <li><a href="#">Golden Table Milano</a></li>
+                    <li><a href="#">Próximas aperturas</a></li>
+                    <li><a href="#">Contáctanos</a></li>
+                </ul>
+            </div>
+            <div class="link">
+                <h3>Redes Sociales</h3>
+                <ul>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">YouTube</a></li>
+                </ul>
+            </div>
+            <div class="link">
+                <h3>Servicio al Cliente</h3>
+                <ul>
+                    <li><a href="#">Reservas</a></li>
+                    <li><a href="#">Preguntas frecuentes</a></li>
+                    <li><a href="#">Política de privacidad</a></li>
+                    <li><a href="#">Términos y condiciones</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    
+
+    <script type="text/javascript" src="../js/nav.js"></script>
+</body>
+
+</html>
